@@ -1,0 +1,29 @@
+* {
+    background-color: pink;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    background-color: red;
+    width: 40%;
+}
+
+.right {
+    width: 60%;
+}
+
+.bottom {
+    background-color: blue;
+    height: 50%;
+}
+
+.top {
+    background-color: brown;
+    height: 50%;
+}
