@@ -1,5 +1,4 @@
 * {
-    background-color: pink;
     margin: 0px;
     padding: 0px;
 }
@@ -10,7 +9,9 @@
 }
 
 .left {
-    background-color: red;
+    background-image: url("Calamity.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     width: 40%;
 }
 
@@ -18,12 +19,44 @@
     width: 60%;
 }
 
-.bottom {
-    background-color: blue;
-    height: 50%;
+.top {
+    background-color: palevioletred;
+    height: 25%;
+    box-shadow: 0px 15px 20px black;
+    border-bottom: solid;
+    border-radius: 2px;
 }
 
-.top {
-    background-color: brown;
-    height: 50%;
+.bottom {
+    padding: 5px;
+    background-color: rgba(0, 0, 200, 0.25);
+    height: 75%;
+}
+
+.splash {
+    margin: auto;
+    text-align: center;
+    margin-top: 85%;
+    font-size: 8em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 5px;
+}
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form_entry {
+    font-family: serif;
+    font-size: small;
+    margin: 10px;
+    width: 45%;
+    background-color: aliceblue;
+}
+
+.form_entry > input {
+    margin-left: 2px;
 }
