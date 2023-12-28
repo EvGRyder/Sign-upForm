@@ -20,16 +20,12 @@
 }
 
 .top {
-    background-color: palevioletred;
+    background-color: lightgray;
     height: 25%;
-    box-shadow: 0px 15px 20px black;
-    border-bottom: solid;
     border-radius: 2px;
 }
 
 .bottom {
-    padding: 5px;
-    background-color: rgba(0, 0, 200, 0.25);
     height: 75%;
 }
 
@@ -43,20 +39,60 @@
     border-radius: 5px;
 }
 
+.mid {
+    box-shadow: 0px 6px 4px -4px grey;
+    border-radius: 0 0 10px 10px;
+    border: solid;
+    border-color: lightgray;
+    border-width: 1px;
+}
 
 form {
+    
+}
+
+#the_form {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .form_entry {
     font-family: serif;
     font-size: small;
-    margin: 10px;
-    width: 45%;
-    background-color: aliceblue;
+    width: 35%;
+    margin: 15px;
 }
 
 .form_entry > input {
-    margin-left: 2px;
+    margin: 2px;
 }
+
+#calamity_blurb {
+    padding: 13px 13px 0px 13px;
+    line-height: 1.5em;
+
+}
+
+#wikilink {
+    float: right;
+    padding-right: 20px;
+}
+
+#form_submit {
+    margin: 20px;
+    padding: px;
+}
+
+.rainbow-letters {
+    font-size: 140px;
+    text-transform: uppercase;
+}
+.rainbow-letters span:nth-child(10n + 1){color: #ef5350;}
+.rainbow-letters span:nth-child(10n + 2){color: #ab47bc;}
+.rainbow-letters span:nth-child(10n + 3){color: #651fff;}
+.rainbow-letters span:nth-child(10n + 5){color: #3949ab;}
+.rainbow-letters span:nth-child(10n + 4){color: #ffc107;}
+.rainbow-letters span:nth-child(10n + 6){color: #00bcd4;}
+.rainbow-letters span:nth-child(10n + 7){color: #4caf50;}
+.rainbow-letters span:nth-child(10n + 8){color: #ffc107;}
