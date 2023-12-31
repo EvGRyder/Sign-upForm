@@ -79,9 +79,14 @@ form {
     padding-right: 20px;
 }
 
-#form_submit {
+#footer {
     margin: 20px;
-    padding: px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#form_submit {
+    margin-left: 10px;
 }
 
 .rainbow-letters {
